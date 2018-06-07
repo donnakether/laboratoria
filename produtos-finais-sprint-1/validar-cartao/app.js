@@ -16,41 +16,48 @@
 //TIPS
 // - 9 = somar os digitos depois de multiplicar as posições pares por 2.
 
-//var cardNumber = prompt("Insira o número do cartão de crédito.");
-var str = "uma string"
-console.log(str.length-1);
-console.log(str.charAt(3));
-console.log(str);
-var cardNumber = "4567 7890 0987 6789";
-//var arrNum = cardNumber.split("");
-//console.log(arrNum);
+var cardNumber = prompt("Insira o número do cartão de crédito.");
+
 function isValidCard(num) {
-    var arrNum = num.split(' ').join('').split('').reverse(); 
-    console.log(arrNum);
-    var even = [];
+
+    var arrSum = [];
     var sum = 0;
     
+    if (num === "") {
+        prompt("Insira um número de cartão válido");
+        return false;
+    }
+    var arrNum = num.split(' ').join('').split('').reverse(); 
+    console.log(arrNum);
     for (var i = 0; i < arrNum.length; i++) {
         
         if (arrNum[i]%2 === 0) {
             if (arrNum[i]*2 > 9)
-              even.push(arrNum[i]*2 -9);
+              arrSum.push(arrNum[i]*2 -9);
             else {
-              even.push(arrNum[i]*2);
+              arrSum.push(arrNum[i]*2);
             }
         }
 
         if (arrNum[i]%2 === 1) {
-          even.push(arrNum[i]);
+          arrSum.push(arrNum[i]);
         }
         
     }
-    for (var j = 0; j < even.length; j++) {
+    console.log(arrSum);
+    
+    for (var j = 0; j < arrSum.length; j++) {
         sum += j;
     }
     var result = sum%10;
-    
-console.log(even);
-console.log(result);
+    if (result === 0) {
+      console.log(result);
+      alert("Cartão válido");
+      return true
+    }
+
 };
 isValidCard(cardNumber);
+
+//var test1 = isValidCard('');
+//console.log([test1 === '']);
