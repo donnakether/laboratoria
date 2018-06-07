@@ -6,8 +6,8 @@ Sprint 1 - LABORATÓRIA - Produto final II - Validador de cartão de crédito ut
 
 ## About/ Sobre
 
-Exercise for bootcamp *<laboratória>* 2018 
-Exercício para bootcamp *<laboratória>* 2018 - Validar cartão de crédito utilizando algoritmo de Luhn ou seja módulo 10. 
+* Exercise for bootcamp *<laboratória>* 2018 *
+* Exercício para bootcamp *<laboratória>* 2018 - Validar cartão de crédito utilizando algoritmo de Luhn ou seja módulo 10. *
 
 ### Pseudocode / Pseudocódigo
 
@@ -35,12 +35,4 @@ retorna true
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+ * **Donna Kether** *
