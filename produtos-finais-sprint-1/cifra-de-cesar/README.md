@@ -34,6 +34,8 @@ A var output acrescenta cada letra (+=) passando var code com método String.fro
  11. Para retornar a posição na tabela ASCII  var code recebe  var char com método charCodeAt(0) + 65 para maiúsculas e + 97 para minúsculas
  A var output recebe char acrescentando através do método String.fromCharCode(0) aplicando a fórmula de decifrar para minúsculas continuar somando 33 ao invés de subtrair, para compensar intervalo entre 90 e 97.
  12. Função decipher retorna string decodificada se o argumento de entrada for a variável que guardou o valor codificado.
+ 
+ ![Flowchart do programa](cifra-de-cesar.png "Primeiro flowchart de programa")
 
 ## Running the tests
 
