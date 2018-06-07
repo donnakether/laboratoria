@@ -9,10 +9,10 @@ Sprint 1 - LABORATÓRIA - Produto final I - Cifra de césar JS
 * Exercise for bootcamp *<laboratória>* 2018 - Ceasar cipher with fixed amout 33.
 * Exercício para bootcamp *<laboratória>* 2018 - Cifra de césar com parâmentro fixo em 33.
 
-### Pseudocode / Pseudocódigo
+## Pseudocode / Pseudocódigo
 
-Em português
-===================
+### Em português
+
 
 1. Recebe frase/string através do Prompt
 2. Função cipher recebe o valor pelo parâmetro str (tipo string)

@@ -9,10 +9,10 @@ Sprint 1 - LABORATÓRIA - Produto final II - Validador de cartão de crédito ut
 * Exercise for bootcamp *<laboratória>* 2018 
 * Exercício para bootcamp *<laboratória>* 2018 - Validar cartão de crédito utilizando algoritmo de Luhn ou seja módulo 10. 
 
-### Pseudocode / Pseudocódigo
+## Pseudocode / Pseudocódigo
 
-Em português
-===================
+####Em português
+
 
 1. Recebe número do cartão de crédito através do prompt
 2. Função isValidCard recebe a string de números através do parâmetro num
