@@ -11,7 +11,7 @@ Sprint 1 - LABORATÓRIA - Produto final II - Validador de cartão de crédito ut
 
 ## Pseudocode / Pseudocódigo
 
-####Em português
+#### Em português
 
 
 1. Recebe número do cartão de crédito através do prompt
