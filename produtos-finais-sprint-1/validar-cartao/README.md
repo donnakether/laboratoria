@@ -26,6 +26,7 @@ Em português
 10. Variável result sum%10
 11. Se sum%10 igual 0 retorna true - alert cartão válido
 
+![Flowchart do programa](validar-cartao.png "Primeiro flowchart de programa")
 
 ## Running the tests
 

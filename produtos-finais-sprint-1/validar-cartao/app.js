@@ -30,10 +30,11 @@ function isValidCard(num) {
     var arrNum = num.split(' ').join('').split('').reverse(); 
     console.log(arrNum);
     for (var i = 0; i < arrNum.length; i++) {
-        
+	    
         if (arrNum[i]%2 === 0) {
-            if (arrNum[i]*2 > 9)
+            if (arrNum[i]*2 > 9){
               arrSum.push(arrNum[i]*2 -9);
+            }
             else {
               arrSum.push(arrNum[i]*2);
             }
@@ -53,11 +54,12 @@ function isValidCard(num) {
     if (result === 0) {
       console.log(result);
       alert("Cartão válido");
-      return true
+      return true;
     }
 
 };
 isValidCard(cardNumber);
-
 //var test1 = isValidCard('');
 //console.log([test1 === '']);
+//var cardNumber = "4567 7890 0987 6789";
+
