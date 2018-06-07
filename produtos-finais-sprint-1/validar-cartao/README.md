@@ -6,8 +6,8 @@ Sprint 1 - LABORATÓRIA - Produto final II - Validador de cartão de crédito ut
 
 ## About/ Sobre
 
-* Exercise for bootcamp *<laboratória>* 2018 *
-* Exercício para bootcamp *<laboratória>* 2018 - Validar cartão de crédito utilizando algoritmo de Luhn ou seja módulo 10. *
+* Exercise for bootcamp *<laboratória>* 2018 
+* Exercício para bootcamp *<laboratória>* 2018 - Validar cartão de crédito utilizando algoritmo de Luhn ou seja módulo 10. 
 
 ### Pseudocode / Pseudocódigo
 
@@ -35,4 +35,5 @@ retorna true
 
 ## Authors
 
- * **Donna Kether** *
+ * **Donna Kether** 
+

@@ -6,8 +6,8 @@ Sprint 1 - LABORATÓRIA - Produto final I - Cifra de césar JS
 
 ## About/ Sobre
 
-*Exercise for bootcamp *<laboratória>* 2018 - Ceasar cipher with fixed amout 33.*
-*Exercício para bootcamp *<laboratória>* 2018 - Cifra de césar com parâmentro fixo em 33.*
+*Exercise for bootcamp *<laboratória>* 2018 - Ceasar cipher with fixed amout 33.
+*Exercício para bootcamp *<laboratória>* 2018 - Cifra de césar com parâmentro fixo em 33.
 
 ### Pseudocode / Pseudocódigo
 
@@ -48,7 +48,7 @@ console.log([test1 === '', test2 === '', test3 === "HIJKLMNOPQRSTUVWXYZABCDEFG h
 
 ## Authors
 
-  * **Donna Kether** *
+  * **Donna Kether** 
  
 ## Acknowledgments
 
